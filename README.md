@@ -16,12 +16,22 @@ An archive where I store all the solutions of mine for LeetCode. The aim is to c
 
 ## Project Structure
 
+### C++
+
 - `[00001] Example Problem` Store all the solutions for every language supported of one problem.
-- `Project's name.*` Main file for compile.
+- `Project's name.cpp` Main file for compile.
 - `library\` library from the language itself such as `System`.
 - `class\` store classes.
-- `function\` store functions, methods or whatever your language defines.
+- `function\` store functions.
 - `bin\Debug\` store built console app.
+
+### C#
+
+*This folder now using template from `dotnet new` command without using **program-main**.*
+
+- `class\` store classes.
+- `method\` store methods.
+- `Project's name.cpp` Main file for compile.
 
 ## Usage
 
@@ -30,8 +40,8 @@ An archive where I store all the solutions of mine for LeetCode. The aim is to c
     `{repository address} \ LeetCode_Solutions \ [00001] Example Problem \ {language} \*`
 
     ***Attention:*** You don't want to open the **repository's folder** itself (`LeetCode_Solutions\*`) OR the **problems's folder** (`[00001] Example Problem\*`) because it might cause problem with compiler.
-
-2. Build the executable under `bin\Debug` folder.
+2. With C++, build the executable under `bin\Debug` folder.
+3. With C#, build the executable under `bin\Debug\net8.0` folder.
 
 ## Contributing
 
