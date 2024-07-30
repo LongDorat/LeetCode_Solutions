@@ -16,9 +16,10 @@ An archive where I store all the solutions of mine for LeetCode. The aim is to c
 
 ## Project Structure
 
+- `[00001] Example Problem` Store all the solutions for every language supported of one problem.
+
 ### C++
 
-- `[00001] Example Problem` Store all the solutions for every language supported of one problem.
 - `Project's name.cpp` Main file for compile.
 - `library\` library from the language itself such as `System`.
 - `class\` store classes.
@@ -31,7 +32,7 @@ An archive where I store all the solutions of mine for LeetCode. The aim is to c
 
 - `class\` store classes.
 - `method\` store methods.
-- `Project's name.cpp` Main file for compile.
+- `Project's name.cs` Main file for compile.
 
 ## Usage
 
