@@ -21,7 +21,9 @@ mono_crash.*
 
 # Build results
 [Dd]ebug/*
-![Dd]ebug/data/
+![Dd]ebug/net8.0/
+[Dd]ebug/net8.0/*
+![Dd]ebug/net8.0/data/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/

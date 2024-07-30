@@ -30,19 +30,31 @@ An archive where I store all the solutions of mine for LeetCode. The aim is to c
 
 *This folder now using template from `dotnet new` command without using **program-main**.*
 
+- `Project's name.cs` Main file for compile.
 - `class\` store classes.
 - `method\` store methods.
-- `Project's name.cs` Main file for compile.
+- `bin\Debug\net8.0\` store built console app.
 
 ## Usage
 
-1. Open problem's folder at this directory with your IDE or navigate to it via terminal:
+- Open problem's folder at this directory with your IDE or navigate to it via terminal:
 
     `{repository address} \ LeetCode_Solutions \ [00001] Example Problem \ {language} \*`
 
     ***Attention:*** You don't want to open the **repository's folder** itself (`LeetCode_Solutions\*`) OR the **problems's folder** (`[00001] Example Problem\*`) because it might cause problem with compiler.
-2. With C++, build the executable under `bin\Debug` folder.
-3. With C#, build the executable under `bin\Debug\net8.0` folder.
+
+### C++
+
+- Build the executable under `bin\Debug` folder.
+
+### C#
+
+- Before build the executable, use `restore` command in terminal to restore the project.
+
+    `cd {repository address} \ LeetCode_Solutions \ [00001] Example Problem \ {language} \*`  
+    `dotnet restore`
+
+- Build the executable under `bin\Debug\net8.0\` folder.
 
 ## Contributing
 
