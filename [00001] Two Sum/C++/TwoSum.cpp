@@ -13,8 +13,7 @@ int main()
     nums.erase(nums.begin());
 
     Solutions solution;
-    std::vector<int> result = solution.twoSum(nums, target);
-    outputFile.write("output.txt", result);
+    outputFile.write("output.txt", solution.TwoSum(nums, target));
 
     return 0;
 }
