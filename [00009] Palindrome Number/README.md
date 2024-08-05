@@ -1,5 +1,8 @@
 # [[00009] Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
+- Difficulty: Easy
+- Topic: Math
+
 ## Description
 
 Given an integer `x`, return `true` *if `x` is a **palindrome***, and `false` otherwise.
