@@ -10,8 +10,7 @@ int main()
     nums.erase(nums.begin() + nums.size() - 1);
 
     std::cout << val << std::endl;
-    Solutions solution;
-    int result = solution.removeElement(nums, val);
+    int result = Solutions().removeElement(nums, val);
 
     std::vector<int> output(nums.begin(), nums.begin() + result);
     TextFile().write("output.txt", output);
